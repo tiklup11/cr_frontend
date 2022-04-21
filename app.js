@@ -34,6 +34,10 @@ app.get('/Login',(req,res)=>{
     res.render('Signup');
 })
 
+app.get('/Contact',(req,res)=>{
+    res.render('Contact');
+})
+
 app.get('/Home',(req,res)=>{
     res.render('Home');
 })
